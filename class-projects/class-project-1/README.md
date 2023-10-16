@@ -1,3 +1,3 @@
-# [Class Project Title]
+# [Class Project 1: Figma essentials]
 
-Provide a short description of your results, if applicable.
+Hero-section made in Figma. A short video showing hero-section is responsive and the properties of Figma components.
