@@ -1,3 +1,3 @@
-# [Class Project Title]
+# Class Project 2: User personas and information architecture
 
-Provide a short description of your results, if applicable.
+PDF file containing User Personas made in Figma and PNG of a sitemap made in Excalidraw.
