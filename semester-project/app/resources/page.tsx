@@ -1,9 +1,9 @@
-function Showcase(){
+function Resources(){
     return(
     <main className='flex justify-center text-4x1 p-14'>
-        <h1>Showcase page</h1>
+        <h1>Resources</h1>
       </main>
     )
 }
 
-export default Showcase;
+export default Resources;

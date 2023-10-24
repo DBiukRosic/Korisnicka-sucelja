@@ -1,9 +1,9 @@
-function About(){
+function Contact_Us(){
     return (
         <main className='flex justify-center text-4x2 p-14'>
-          <h1>About</h1>
+          <h1>Contact us</h1>
         </main>
       )
 }
 
-export default About;
+export default Contact_Us;
