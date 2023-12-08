@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { Inter, Urbanist, Unlock } from 'next/font/google';
 import clsx from 'clsx';
 import './globals.css';
-import NavBar from '@/components/NavBar';
+import NavBar from '@/components/Navbar';
 
 //Fonts and their settings
 const inter = Inter({ subsets: ['latin'], variable: "--font-inter"});
