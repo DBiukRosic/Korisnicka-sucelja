@@ -1,7 +1,9 @@
-import Link from '@/node_modules/next/link'
-import type { Metadata } from 'next'
-import { Inter, Urbanist, Unlock } from 'next/font/google'
-import './globals.css'
+import Link from '@/node_modules/next/link';
+import type { Metadata } from 'next';
+import { Inter, Urbanist, Unlock } from 'next/font/google';
+import clsx from 'clsx';
+import './globals.css';
+import NavBar from '@/components/NavBar';
 
 //Fonts and their settings
 const inter = Inter({ subsets: ['latin'], variable: "--font-inter"});
@@ -20,36 +22,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={clsx(unlock.variable, inter.variable, urbanist.variable)}>
       <body className={urbanist.className}>
-      <nav className='flex flex-col items-center justify-center p-14'>
-        <ul className="flex text-lg gap-10">
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/about_us">About Us</Link>
-          </li>
-          <li>
-            <Link href="/findourshops">Find our shops</Link>
-          </li>
-          <li>
-            <Link href="/resources">Resources</Link>
-          </li>
-          <li>
-            <Link href="/user_profile">User Profile</Link>
-          </li>
-          <li>
-            <Link href="/car_repair_topics">Car Repair Topics</Link>
-          </li>
-          <li>
-            <Link href="/contact_us">Contact Us</Link>
-          </li>
-          <li>
-            <Link href="/disclaimers">Disclaimers and privacy policy</Link>
-          </li>
-        </ul>
-      </nav>
+        <NavBar />
         {children}
         </body>
     </html>

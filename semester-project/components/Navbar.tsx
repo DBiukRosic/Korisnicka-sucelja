@@ -1,6 +1,9 @@
 "use client";
 import { useState } from "react";
 
+import Logo from "@/components/Logo";
+import MainNav from "@/components/MainNav";
+
 //import Logo from "@/components/Logo";
 //import MainNav from "@/components/MainNav";
 //import Hamburger from "@/components/Hamburger";
@@ -19,4 +22,19 @@ const pages: Page[] = [
     { href: "/findourshops", title: "Find Our Shops" },
     { href: "/contact_us", title: "Contact Us" },
     { href: "/user_profile", title: "Sign In" },
+    { href: "/car_repair_topics", title: "Car Repair Topics" },
+    { href: "/disclaimers", title: "Disclaimers" },
   ];
+
+  const NavBar = () => {
+    //const [open, setOpen] = useState(false);
+  
+    return (
+      <div className="container flex items-center justify-between">
+        <Logo />
+        <MainNav pages={pages} />
+      </div>
+    );
+  };
+  
+  export default NavBar;
