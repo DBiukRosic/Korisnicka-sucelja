@@ -40,7 +40,7 @@ export default async function FindOurShops({
 }: {
   searchParams: Record<string, string | string[] | undefined>;
 }) {
-  const { _limit, _page } = searchParams;
+  const { _limit = 10, _page = 1 } = searchParams;
   const [pageSize, page] = [_limit, _page].map(Number);
   const totalPosts = await getTotalPosts();
   const totalPages = Math.ceil(totalPosts / pageSize);
