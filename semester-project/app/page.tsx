@@ -1,12 +1,10 @@
 import Link from "@/node_modules/next/link";
+import HeroSection from "./_components/HeroSection";
 
-function Home() {
+export default function Home() {
   return (
-    <main className='flex flex-col items-center justify-center p-14'>
-      <h1 className='flex justify-center text-4x1 p-14 font-bold'>Home page</h1>
+    <main className="flex flex-col justify-between items-center">
+      <HeroSection />
     </main>
-  )
+  );
 }
-
-
-export default Home;

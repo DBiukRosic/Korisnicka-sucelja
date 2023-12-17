@@ -25,7 +25,7 @@ const Button = ({
     "group flex items-center gap-2 text-lg max-w-min whitespace-nowrap",
     "px-6 py-3 rounded-sm font-urbanist font-medium",
     {
-      "bg-brand-blue-200 hover:bg-brand-orange-400 text-brand-orange-50":
+      "bg-brand-orange-75 text-brand-blue-500 hover:bg-brand-orange-400 text-brand-orange-50":
         orange,
       "text-brand-blue-400 hover:text-brand-blue-50": !orange,
       "border-2 border-brand-blue-400 hover:bg-brand-blue-400": blue,
