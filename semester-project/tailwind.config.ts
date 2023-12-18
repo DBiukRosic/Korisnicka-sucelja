@@ -37,6 +37,7 @@ const config: Config = {
         urbanist: ["var(--font-urbanist)"],
         unlock: ["var-(--font-unlock)"],
         inter: ["var-(--font-inter)"],
+        sarpanch: ["var-(--font-sarpanch)"],
       },
     },
   },

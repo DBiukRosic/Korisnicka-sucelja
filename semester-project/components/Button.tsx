@@ -23,9 +23,9 @@ const Button = ({
   const buttonClasses = cn(
     "transition duration-300 ease-in-out",
     "group flex items-center gap-2 text-lg max-w-min whitespace-nowrap",
-    "px-6 py-3 rounded-sm font-urbanist font-medium",
+    "px-6 py-3 rounded font-urbanist",
     {
-      "bg-brand-orange-75 text-brand-blue-500 hover:bg-brand-orange-400 text-brand-orange-50":
+      "border-2 border-brand-blue-300 bg-brand-orange-100 text-brand-blue-500 hover:bg-brand-orange-400 text-brand-blue-500":
         orange,
       "text-brand-blue-400 hover:text-brand-blue-50": !orange,
       "border-2 border-brand-blue-400 hover:bg-brand-blue-400": blue,

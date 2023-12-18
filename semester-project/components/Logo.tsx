@@ -11,7 +11,7 @@ const Logo = () => (
     />
     <span
       className={cn("font-sarpanch text-3xl whitespace-nowrap", {
-        "text-brand-blue-200": true,
+        "text-brand-orange-75": true,
       })}
     >
       CAR(E)

@@ -10,7 +10,7 @@ export type HamburgerProps = {
 const Hamburger = ({ open, clickHandler }: HamburgerProps) => {
   return (
     <div
-      className="lg:hidden rounded-full hover:bg-brand-purple-100 hover:cursor-pointer p-2 z-50"
+      className="lg:hidden rounded-full hover:bg-brand-blue-100 hover:cursor-pointer p-2 z-50"
       onClick={() => clickHandler(!open)}
     >
       <Bars3Icon

@@ -13,7 +13,7 @@ const HeroImageGrid = ({ images }: HeroImageGridProps) => {
   return (
     <div className="grid grid-cols-2 grid-rows-2 gap-2 grow">
       {images.map((imageObj, index) => (
-        <div key={index} className="relative h-44 w-44 xl:h-52 xl:w-52">
+        <div key={index} className="relative h-128 w-128 xl:h-64 xl:w-80">
           <Image
             src={imageObj.image}
             placeholder="blur"
