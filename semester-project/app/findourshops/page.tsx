@@ -52,7 +52,7 @@ export default async function FindOurShops({
 
   return (
     <main className="flex flex-col items-center min-h-screen max-w-5xl m-auto p-10">
-      <h1 className="text-3xl font-bold p-10">Locations of our shops</h1>
+      <h1 className="text-3xl font-urbanist-bold p-10">Locations of our shops</h1>
 
       {_limit && _page && (
         <div className="flex items-baseline gap-8 pb-10">
@@ -65,7 +65,7 @@ export default async function FindOurShops({
                 pathname: "/findourshops",
                 query: { _page: 1, _limit: pageSize },
               }}
-              className="rounded border bg-gray-100 px-3 py-1 text-gray-800"
+              className="rounded border bg-gray-100 px-3 py-1 text-gray-800 font-urbanist"
             >
               First
             </Link>
@@ -75,7 +75,7 @@ export default async function FindOurShops({
                 query: { _page: page > 1 ? page - 1 : 1, _limit: pageSize },
               }}
               className={clsx(
-                "rounded border bg-gray-100 px-3 py-1 text-gray-800",
+                "rounded border bg-gray-100 px-3 py-1 text-gray-800 font-urbanist",
                 page === 1 && "pointer-events-none opacity-50"
               )}
             >
@@ -87,7 +87,7 @@ export default async function FindOurShops({
                 query: { _page: page + 1, _limit: pageSize },
               }}
               className={clsx(
-                "rounded border bg-gray-100 px-3 py-1 text-gray-800",
+                "rounded border bg-gray-100 px-3 py-1 text-gray-800 font-urbanist",
                 page === totalPages && "pointer-events-none opacity-50"
               )}
             >
@@ -98,7 +98,7 @@ export default async function FindOurShops({
                 pathname: "/findourshops",
                 query: { _page: totalPages, _limit: pageSize },
               }}
-              className="rounded border bg-gray-100 px-3 py-1 text-gray-800"
+              className="rounded border bg-gray-100 px-3 py-1 text-gray-800 font-urbanist"
             >
               Last
             </Link>
