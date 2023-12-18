@@ -8,3 +8,12 @@ References to class projects:
 - [Class project 4: Low/High-fidelity prototype](/class-projects/class-project-4/)
 - [Class project 5: Next.js - Dynamic routes, data fetching](/class-projects/class-project-5/)
 - [Class project 6: Full Responsive Page Coding](/class-projects/class-project-6/)
+
+# Weekly progress, status and problems
+
+References to weeks:
+
+- [Week 1](/class-projects/weekly-progress/week-1)
+- [Week 2](/class-projects/weekly-progress/week-2)
+- [Week 3](/class-projects/weekly-progress/week-3)
+- [Week 4](/class-projects/weekly-progress/week-4)
